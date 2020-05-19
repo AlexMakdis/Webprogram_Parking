@@ -1,0 +1,32 @@
+body {
+    padding: 50px 0;
+    text-align: center;
+    background: #34495e;
+}
+#parking-overview {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    color:#ecf0f1;
+}
+.parking {
+    background: #7f8c8d;
+    border: 1px solid #ecf0f1;
+    padding: 30px;
+    margin-bottom: 10px;
+    width: 32%;     
+    min-width: 160px;       
+}
+.parking ul, .parking li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.error {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 3px solid #e74c3c;
+    color: #e74c3c;
+}
